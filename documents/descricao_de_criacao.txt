@@ -1,0 +1,8 @@
+
+# criando projeto backend
+  -> exemplo de comando para criar projeto java utilizando Mavem
+  mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false -DartifactId=[NOME-PROJETO] -DgroupId=[NOME-ORGANIZACAO]
+
+# criando projeto frontend
+  -> exemplo de comando para criar projeto web utilizando Mavem
+  mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false -DartifactId=[NOME-PROJETO] -DgroupId=[NOME-ORGANIZACAO]
